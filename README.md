@@ -5,7 +5,9 @@ You need to run the agent.py file for training
 - Use model.pth file and paste it into play.py or play_snakes.py
 
 1. update_1
+2. 
 a. file play.py
+
  + Can change the color of the snake every time it eats a foot
  + foot can be changed to your liking if you want it to be fruit or something you assign a path to
 
@@ -16,6 +18,7 @@ a. file play_snakes.py
  + Score scale for each snake
  + Change foot to anything as long as you give it a path
  + When snakes touch each other, they will reset their score to 0 and play again from the beginning
+ + 
 b. File model_DQLN.py, agent_Double_DQN.py
  + Use a new, improved algorithm compared to update_1
 
